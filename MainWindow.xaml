@@ -1,0 +1,17 @@
+﻿<Window x:Class="Pierwsza_apka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pierwsza_apka"
+        mc:Ignorable="d"
+        Title="Pierwsza apka" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left"
+            Height="250" Margin="150,100,0,0" VerticalAlignment="Top" Width="200"
+            FontFamily="Times New Roman" FontSize="60" FontWeight="Bold" Click="btnStart_Click" Background="#FF3400FF" Foreground="#FF00FFD6" BorderBrush="#FF6201FF"/>
+        <Button x:Name="btnTime" Content="Czas" HorizontalAlignment="Right" Height="250"
+            Margin="0,100,150,0" VerticalAlignment="Top" Width="200"
+            FontFamily="Times New Roman" FontSize="60" FontWeight="Bold" MouseEnter="btnTime_MouseEnter" MouseLeave="btnTime_MouseLeave" BorderBrush="Red" Foreground="Red" Background="#FFFFE713"/>
+    </Grid>
+</Window>
